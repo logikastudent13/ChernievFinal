@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #E6E6FA;
+}
+
+/* Шапка */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+/* Навігація */
+.navigation {
+    background-color: #444;
+    padding: 0.5rem;
+   position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 1rem;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+/* Основна частина */
+.main-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Розділ 1: Текст із великим зображенням */
+.section-1 {
+    background-color: orange;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+img:hover{
+    transform:scale(1.1);
+    border:1px solid black;
+}
+img{
+    transition: 0.3s;
+}
+p:hover{
+  transform:scale(1.1);  
+}
+p{
+   transition: 0.3s;
+
+}
+.section:hover{
+transform:scale(1.05);
+}
+.section{
+    transition:0.3s;
+}
+
+.section-1 img {
+    width: 180px;
+    
+    border-radius: 10px;
+    height:150px;
+    
+}
+.section-1 article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Розділ 2: Галерея зображень */
+.section-2 {
+    background-color: 	#F0E68C;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #b3e5fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.section-2 p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Розділ 3: Відео */
+.section-3 {
+    background-color: #00FFFF;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ffccbc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.section-3 img{
+    width:200px;
+    height:150px;
+    border-radius:10px;
+}
+
+
+
+
+.section-3 article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+
+.section-3 p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Підвал */
+.footer {
+    background-color: #333;
+    color: white;
+    
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
